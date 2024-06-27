@@ -1,0 +1,5 @@
+pandas #dataframes e salvar arquivos
+sqlalchemy #atua no banco de dados
+python-dotenv #atua com variáveis de ambiente (esconder senha)
+psycopg2-binary #atua como drive no PostgreSQL
+yfinance #dados de cotação 

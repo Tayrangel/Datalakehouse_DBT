@@ -1,8 +1,14 @@
 ### Data Warehouse com DBT
 
-* Criação de pasta do projeto no repositório de Data_Analytics
+* Criação do repositório no GitHub
 * Criação do ambiente virtual
+    `python -m venv .venv`
+
+    `source .venv/Scripts/activate`
+
 * Instalar bibliotecas
+    requirements.txt
+
 * Criar estrutura de pastas do projeto
 - src (código do projeto)
     Extract com python
