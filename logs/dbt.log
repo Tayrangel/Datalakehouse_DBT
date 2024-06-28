@@ -1,0 +1,181 @@
+[0m20:27:17.951282 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000206BD60F500>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000206BD203230>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000206BD200CB0>]}
+
+
+============================== 20:27:17.957750 | e1ad19cb-e936-4ba4-87b8-17876cb3fc44 ==============================
+[0m20:27:17.957750 [info ] [MainThread]: Running with dbt=1.8.3
+[0m20:27:17.959525 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'profiles_dir': 'C:\\Users\\tayha\\.dbt', 'log_path': 'logs', 'fail_fast': 'False', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'log_format': 'default', 'invocation_command': 'dbt init', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m20:27:17.993012 [warn ] [MainThread]: [ConfigFolderDirectory]: Unable to parse dict {'dir': WindowsPath('C:/Users/tayha/.dbt')}
+[0m20:27:17.994521 [info ] [MainThread]: Creating dbt configuration folder at 
+[0m20:27:41.537066 [debug] [MainThread]: Starter project path: C:\Users\tayha\AppData\Local\Programs\Python\Python312\Lib\site-packages\dbt\include\starter_project
+[0m20:27:41.568267 [info ] [MainThread]: 
+Your new dbt project "datalakehouse" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m20:27:41.570175 [info ] [MainThread]: Setting up your profile.
+[0m20:28:57.950073 [info ] [MainThread]: Profile datalakehouse written to C:\Users\tayha\.dbt\profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m20:28:57.952149 [debug] [MainThread]: Command `dbt init` succeeded at 20:28:57.952149 after 100.14 seconds
+[0m20:28:57.953160 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000206BD297380>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000206BD69BE30>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000206BDD41310>]}
+[0m20:28:57.954111 [debug] [MainThread]: Flushing usage events
+[0m20:33:35.938417 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020204C83050>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020204D54B60>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020204C80BC0>]}
+
+
+============================== 20:33:35.938417 | a7a120f6-4034-4229-8edb-03166aa98ec1 ==============================
+[0m20:33:35.938417 [info ] [MainThread]: Running with dbt=1.8.3
+[0m20:33:35.954022 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\tayha\\.dbt', 'fail_fast': 'False', 'warn_error': 'None', 'log_path': 'logs', 'debug': 'False', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'log_format': 'default', 'introspect': 'True', 'static_parser': 'True', 'invocation_command': 'dbt debug', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'send_anonymous_usage_stats': 'True'}
+[0m20:33:35.970434 [info ] [MainThread]: dbt version: 1.8.3
+[0m20:33:35.971009 [info ] [MainThread]: python version: 3.12.4
+[0m20:33:35.971601 [info ] [MainThread]: python path: C:\Users\tayha\AppData\Local\Programs\Python\Python312\python.exe
+[0m20:33:35.973085 [info ] [MainThread]: os info: Windows-11-10.0.22631-SP0
+[0m20:33:36.041644 [info ] [MainThread]: Using profiles dir at C:\Users\tayha\.dbt
+[0m20:33:36.041644 [info ] [MainThread]: Using profiles.yml file at C:\Users\tayha\.dbt\profiles.yml
+[0m20:33:36.041644 [info ] [MainThread]: Using dbt_project.yml file at C:\Users\tayha\OneDrive\Documentos\TI\Projetos\Datalakehouse_DBT\dbt_project.yml
+[0m20:33:36.041644 [info ] [MainThread]: adapter type: postgres
+[0m20:33:36.041644 [info ] [MainThread]: adapter version: 1.8.2
+[0m20:33:36.041644 [info ] [MainThread]: Configuration:
+[0m20:33:36.048940 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m20:33:36.049949 [info ] [MainThread]:   dbt_project.yml file [[31mERROR not found[0m]
+[0m20:33:36.050446 [info ] [MainThread]: Required dependencies:
+[0m20:33:36.051100 [debug] [MainThread]: Executing "git --help"
+[0m20:33:36.061264 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]\n           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]\n           [--config-env=<name>=<envvar>] <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone     Clone a repository into a new directory\n   init      Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add       Add file contents to the index\n   mv        Move or rename a file, a directory, or a symlink\n   restore   Restore working tree files\n   rm        Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect    Use binary search to find the commit that introduced a bug\n   diff      Show changes between commits, commit and working tree, etc\n   grep      Print lines matching a pattern\n   log       Show commit logs\n   show      Show various types of objects\n   status    Show the working tree status\n\ngrow, mark and tweak your common history\n   branch    List, create, or delete branches\n   commit    Record changes to the repository\n   merge     Join two or more development histories together\n   rebase    Reapply commits on top of another base tip\n   reset     Reset current HEAD to the specified state\n   switch    Switch branches\n   tag       Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch     Download objects and refs from another repository\n   pull      Fetch from and integrate with another repository or a local branch\n   push      Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m20:33:36.061264 [debug] [MainThread]: STDERR: "b''"
+[0m20:33:36.061264 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m20:33:36.061264 [info ] [MainThread]: Connection:
+[0m20:33:36.072338 [info ] [MainThread]:   host: dpg-cptkgq9u0jms73eam90g-a.oregon-postgres.render.com
+[0m20:33:36.073346 [info ] [MainThread]:   port: 5432
+[0m20:33:36.074346 [info ] [MainThread]:   user: postrges123
+[0m20:33:36.074346 [info ] [MainThread]:   database: datalakehouse
+[0m20:33:36.075345 [info ] [MainThread]:   schema: public
+[0m20:33:36.075345 [info ] [MainThread]:   connect_timeout: 10
+[0m20:33:36.076344 [info ] [MainThread]:   role: None
+[0m20:33:36.076344 [info ] [MainThread]:   search_path: None
+[0m20:33:36.077345 [info ] [MainThread]:   keepalives_idle: 0
+[0m20:33:36.078345 [info ] [MainThread]:   sslmode: None
+[0m20:33:36.078345 [info ] [MainThread]:   sslcert: None
+[0m20:33:36.079345 [info ] [MainThread]:   sslkey: None
+[0m20:33:36.080346 [info ] [MainThread]:   sslrootcert: None
+[0m20:33:36.080346 [info ] [MainThread]:   application_name: dbt
+[0m20:33:36.081344 [info ] [MainThread]:   retries: 1
+[0m20:33:36.082348 [info ] [MainThread]: Registered adapter: postgres=1.8.2
+[0m20:33:36.083345 [debug] [MainThread]: Acquiring new postgres connection 'debug'
+[0m20:33:36.156258 [debug] [MainThread]: Using postgres connection "debug"
+[0m20:33:36.156258 [debug] [MainThread]: On debug: select 1 as id
+[0m20:33:36.156258 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m20:33:37.806281 [debug] [MainThread]: SQL status: SELECT 1 in 2.0 seconds
+[0m20:33:37.806281 [debug] [MainThread]: On debug: Close
+[0m20:33:37.806281 [info ] [MainThread]:   Connection test: [[32mOK connection ok[0m]
+
+[0m20:33:37.806281 [info ] [MainThread]: [31m1 check failed:[0m
+[0m20:33:37.806281 [info ] [MainThread]: Project loading failed for the following reason:
+ project path <C:\Users\tayha\OneDrive\Documentos\TI\Projetos\Datalakehouse_DBT\dbt_project.yml> not found
+
+[0m20:33:37.823509 [debug] [MainThread]: Command `dbt debug` failed at 20:33:37.823509 after 2.01 seconds
+[0m20:33:37.825523 [debug] [MainThread]: Connection 'debug' was properly closed.
+[0m20:33:37.826521 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020204D54B60>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002020547CCB0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000202050B06B0>]}
+[0m20:33:37.827170 [debug] [MainThread]: Flushing usage events
+[0m20:50:40.841800 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000029FB143F590>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000029FB0A80AA0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000029FB1241A30>]}
+
+
+============================== 20:50:40.857439 | 5b1dcb13-6ea8-4cc3-bb05-5a7b77b4567f ==============================
+[0m20:50:40.857439 [info ] [MainThread]: Running with dbt=1.8.3
+[0m20:50:40.857439 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'profiles_dir': '../', 'log_path': 'logs', 'fail_fast': 'False', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'log_format': 'default', 'static_parser': 'True', 'introspect': 'True', 'invocation_command': 'dbt debug', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'send_anonymous_usage_stats': 'True'}
+[0m20:50:40.874976 [info ] [MainThread]: dbt version: 1.8.3
+[0m20:50:40.874976 [info ] [MainThread]: python version: 3.12.4
+[0m20:50:40.874976 [info ] [MainThread]: python path: C:\Users\tayha\AppData\Local\Programs\Python\Python312\python.exe
+[0m20:50:40.880506 [info ] [MainThread]: os info: Windows-11-10.0.22631-SP0
+[0m20:50:40.881519 [info ] [MainThread]: Using profiles dir at ../
+[0m20:50:40.881519 [info ] [MainThread]: Using profiles.yml file at ../profiles.yml
+[0m20:50:40.882518 [info ] [MainThread]: Using dbt_project.yml file at C:\Users\tayha\OneDrive\Documentos\TI\Projetos\Datalakehouse_DBT\dbt_project.yml
+[0m20:50:40.882518 [info ] [MainThread]: Configuration:
+[0m20:50:40.884188 [info ] [MainThread]:   profiles.yml file [[31mERROR not found[0m]
+[0m20:50:40.884188 [info ] [MainThread]:   dbt_project.yml file [[31mERROR not found[0m]
+[0m20:50:40.884188 [info ] [MainThread]: Required dependencies:
+[0m20:50:40.884188 [debug] [MainThread]: Executing "git --help"
+[0m20:50:40.902556 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]\n           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]\n           [--config-env=<name>=<envvar>] <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone     Clone a repository into a new directory\n   init      Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add       Add file contents to the index\n   mv        Move or rename a file, a directory, or a symlink\n   restore   Restore working tree files\n   rm        Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect    Use binary search to find the commit that introduced a bug\n   diff      Show changes between commits, commit and working tree, etc\n   grep      Print lines matching a pattern\n   log       Show commit logs\n   show      Show various types of objects\n   status    Show the working tree status\n\ngrow, mark and tweak your common history\n   branch    List, create, or delete branches\n   commit    Record changes to the repository\n   merge     Join two or more development histories together\n   rebase    Reapply commits on top of another base tip\n   reset     Reset current HEAD to the specified state\n   switch    Switch branches\n   tag       Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch     Download objects and refs from another repository\n   pull      Fetch from and integrate with another repository or a local branch\n   push      Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m20:50:40.902556 [debug] [MainThread]: STDERR: "b''"
+[0m20:50:40.902556 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m20:50:40.902556 [info ] [MainThread]: Connection test skipped since no profile was found
+[0m20:50:40.902556 [info ] [MainThread]: [31m2 checks failed:[0m
+[0m20:50:40.902556 [info ] [MainThread]: dbt looked for a profiles.yml file in ../profiles.yml, but did
+not find one. For more information on configuring your profile, consult the
+documentation:
+
+https://docs.getdbt.com/docs/configure-your-profile
+
+
+[0m20:50:40.915001 [info ] [MainThread]: Project loading failed for the following reason:
+ project path <C:\Users\tayha\OneDrive\Documentos\TI\Projetos\Datalakehouse_DBT\dbt_project.yml> not found
+
+[0m20:50:40.917057 [debug] [MainThread]: Command `dbt debug` failed at 20:50:40.917057 after 0.16 seconds
+[0m20:50:40.917057 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000029FB13B88C0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000029FB0CF1820>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000029FB0678980>]}
+[0m20:50:40.918162 [debug] [MainThread]: Flushing usage events
+[0m20:54:00.129171 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F6986BCEC0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F697B23980>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F697B22F00>]}
+
+
+============================== 20:54:00.144804 | d0d292f6-3c4b-402e-87e3-f3cf50c45958 ==============================
+[0m20:54:00.144804 [info ] [MainThread]: Running with dbt=1.8.3
+[0m20:54:00.144804 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'fail_fast': 'False', 'log_path': 'logs', 'debug': 'False', 'profiles_dir': 'C:/Users/tayha/OneDrive/Documentos/TI/Projetos/Datalakehouse_DBT', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'invocation_command': 'dbt debug', 'log_format': 'default', 'static_parser': 'True', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m20:54:00.161941 [info ] [MainThread]: dbt version: 1.8.3
+[0m20:54:00.161941 [info ] [MainThread]: python version: 3.12.4
+[0m20:54:00.161941 [info ] [MainThread]: python path: C:\Users\tayha\AppData\Local\Programs\Python\Python312\python.exe
+[0m20:54:00.161941 [info ] [MainThread]: os info: Windows-11-10.0.22631-SP0
+[0m20:54:00.227222 [info ] [MainThread]: Using profiles dir at C:/Users/tayha/OneDrive/Documentos/TI/Projetos/Datalakehouse_DBT
+[0m20:54:00.227222 [info ] [MainThread]: Using profiles.yml file at C:/Users/tayha/OneDrive/Documentos/TI/Projetos/Datalakehouse_DBT\profiles.yml
+[0m20:54:00.227222 [info ] [MainThread]: Using dbt_project.yml file at C:\Users\tayha\OneDrive\Documentos\TI\Projetos\Datalakehouse_DBT\dbt_project.yml
+[0m20:54:00.227222 [info ] [MainThread]: adapter type: postgres
+[0m20:54:00.227222 [info ] [MainThread]: adapter version: 1.8.2
+[0m20:54:00.227222 [info ] [MainThread]: Configuration:
+[0m20:54:00.227222 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m20:54:00.241915 [info ] [MainThread]:   dbt_project.yml file [[31mERROR not found[0m]
+[0m20:54:00.242926 [info ] [MainThread]: Required dependencies:
+[0m20:54:00.243694 [debug] [MainThread]: Executing "git --help"
+[0m20:54:00.260752 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]\n           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]\n           [--config-env=<name>=<envvar>] <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone     Clone a repository into a new directory\n   init      Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add       Add file contents to the index\n   mv        Move or rename a file, a directory, or a symlink\n   restore   Restore working tree files\n   rm        Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect    Use binary search to find the commit that introduced a bug\n   diff      Show changes between commits, commit and working tree, etc\n   grep      Print lines matching a pattern\n   log       Show commit logs\n   show      Show various types of objects\n   status    Show the working tree status\n\ngrow, mark and tweak your common history\n   branch    List, create, or delete branches\n   commit    Record changes to the repository\n   merge     Join two or more development histories together\n   rebase    Reapply commits on top of another base tip\n   reset     Reset current HEAD to the specified state\n   switch    Switch branches\n   tag       Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch     Download objects and refs from another repository\n   pull      Fetch from and integrate with another repository or a local branch\n   push      Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m20:54:00.261753 [debug] [MainThread]: STDERR: "b''"
+[0m20:54:00.261753 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m20:54:00.262947 [info ] [MainThread]: Connection:
+[0m20:54:00.262947 [info ] [MainThread]:   host: dpg-cptkgq9u0jms73eam90g-a.oregon-postgres.render.com
+[0m20:54:00.262947 [info ] [MainThread]:   port: 5432
+[0m20:54:00.262947 [info ] [MainThread]:   user: postrges123
+[0m20:54:00.262947 [info ] [MainThread]:   database: datalakehouse
+[0m20:54:00.262947 [info ] [MainThread]:   schema: public
+[0m20:54:00.262947 [info ] [MainThread]:   connect_timeout: 10
+[0m20:54:00.262947 [info ] [MainThread]:   role: None
+[0m20:54:00.262947 [info ] [MainThread]:   search_path: None
+[0m20:54:00.262947 [info ] [MainThread]:   keepalives_idle: 0
+[0m20:54:00.262947 [info ] [MainThread]:   sslmode: None
+[0m20:54:00.262947 [info ] [MainThread]:   sslcert: None
+[0m20:54:00.262947 [info ] [MainThread]:   sslkey: None
+[0m20:54:00.262947 [info ] [MainThread]:   sslrootcert: None
+[0m20:54:00.275161 [info ] [MainThread]:   application_name: dbt
+[0m20:54:00.275161 [info ] [MainThread]:   retries: 1
+[0m20:54:00.277169 [info ] [MainThread]: Registered adapter: postgres=1.8.2
+[0m20:54:00.277169 [debug] [MainThread]: Acquiring new postgres connection 'debug'
+[0m20:54:00.327905 [debug] [MainThread]: Using postgres connection "debug"
+[0m20:54:00.327905 [debug] [MainThread]: On debug: select 1 as id
+[0m20:54:00.327905 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m20:54:01.837995 [debug] [MainThread]: SQL status: SELECT 1 in 2.0 seconds
+[0m20:54:01.841009 [debug] [MainThread]: On debug: Close
+[0m20:54:01.842013 [info ] [MainThread]:   Connection test: [[32mOK connection ok[0m]
+
+[0m20:54:01.843218 [info ] [MainThread]: [31m1 check failed:[0m
+[0m20:54:01.843218 [info ] [MainThread]: Project loading failed for the following reason:
+ project path <C:\Users\tayha\OneDrive\Documentos\TI\Projetos\Datalakehouse_DBT\dbt_project.yml> not found
+
+[0m20:54:01.843218 [debug] [MainThread]: Command `dbt debug` failed at 20:54:01.843218 after 1.84 seconds
+[0m20:54:01.843218 [debug] [MainThread]: Connection 'debug' was properly closed.
+[0m20:54:01.843218 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F6988F8B00>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F6987D52B0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F6985D1730>]}
+[0m20:54:01.843218 [debug] [MainThread]: Flushing usage events
